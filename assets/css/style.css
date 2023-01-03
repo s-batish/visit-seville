@@ -11,15 +11,43 @@ body {
     font-weight: 300;
 }
 
+header {
+    background-color: #F2CD88;
+}
+
 /* logo */
 
 h1 {
     font-family: Pacifico, sans-serif;
     font-size: 300%;
+    color: #404040;
     display: flex;
     justify-content: flex-start;
 }
 
 #logo {
     text-decoration: none;
+}
+
+/* navigation bar*/
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+li h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    color: #404040;
 }
