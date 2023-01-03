@@ -10,3 +10,16 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
 }
+
+/* logo */
+
+h1 {
+    font-family: Pacifico, sans-serif;
+    font-size: 300%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    text-decoration: none;
+}
