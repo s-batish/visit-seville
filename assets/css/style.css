@@ -10,6 +10,7 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
     color: #404040;
+    min-height: 100vh;
 }
 
 header {
@@ -81,6 +82,8 @@ li h2 {
 
 footer {
     background-color: #F2CD88;
+    position: sticky;
+    top: 100%;
 }
 
 .social-media {
