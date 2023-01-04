@@ -9,6 +9,7 @@
 body {
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
+    color: #404040;
 }
 
 header {
@@ -39,7 +40,7 @@ h1 {
     text-decoration: none;
 }
 
-/* navigation bar*/
+/* navigation bar */
 
 .menu {
     margin-top: 0.5vh;
@@ -58,16 +59,18 @@ h1 {
 #menu-items a {
     text-decoration: none;
     display: block;
+    color: inherit;
 }
 
 li h2 {
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 90%;
-    color: #404040;
 }
 
-li a.active {
-    background-color: #C9E7F2;
-    color: #404040;
+#menu-items a:hover {
+    text-decoration: underline #404040;
+}
+.active h2 {
+    text-decoration: underline #404040;
 }
