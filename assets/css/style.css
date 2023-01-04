@@ -55,6 +55,10 @@ h1 {
     text-align: right;
 }
 
+.menu-lists {
+    display: inline;
+}
+
 .menu ul {
     list-style-type: none;
 }
@@ -104,3 +108,36 @@ footer {
     padding: 5%;
     color: #404040;
 }
+
+/* media queries */
+
+/* small to medium devices */
+@media screen and (min-width: 576px) {
+    
+}
+
+/* medium to large devices */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+
+/* large to extra large devices */
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+
+/* bigger than extra large devices */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    .menu-lists {
+        display: inline;
+    }
+}
+
