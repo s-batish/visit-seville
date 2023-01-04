@@ -74,3 +74,28 @@ li h2 {
 .active h2 {
     text-decoration: underline #404040;
 }
+
+/* footer */
+
+footer {
+    background-color: #F2CD88;
+}
+
+.social-media {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #404040;
+}
