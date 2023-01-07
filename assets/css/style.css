@@ -78,6 +78,37 @@ h1 {
     text-decoration: underline #404040;
 }
 
+/* hero-image */
+
+#hero-outer {
+    height: 580px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 580px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat 70% center;
+
+    /* animates zoom effect on loading page */
+
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+/* zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 /* footer */
 
 footer {
@@ -103,38 +134,6 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #404040;
-}
-
-/* hero-image */
-
-#hero-outer {
-    height: 580px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#hero-image {
-    height: 580px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat 70% center;
-
-    /* animates zoom effect on loading page */
-
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-}
-
-
-/* zoom for hero image */
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
 }
 
 /* media queries */
