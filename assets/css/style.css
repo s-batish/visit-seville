@@ -109,6 +109,16 @@ animation-fill-mode: forwards;
     }
 }
 
+/* about seville section */
+h2 {
+    font-family: Lato, sans-serif;
+}
+
+#about-seville {
+    background-color: #dbeaf0;
+    padding: 1vh;
+}
+
 /* footer */
 
 footer {
