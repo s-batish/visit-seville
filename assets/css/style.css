@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lato:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lato:wght@300&family=Overlock&family=Pacifico&display=swap');
 
 * {
     margin: 0;
@@ -11,14 +11,21 @@ body {
     font-weight: 300;
     color: #404040;
     min-height: 100vh;
+    background-color: #e7eff1;
 }
 
 header {
     background-color: #F2CD88;
+    background: linear-gradient(to left, #f2b279, #F2CD88);
     display: flex;
     position: sticky;
     top: 0;
     z-index: 5;
+}
+
+h2 {
+    font-family: Overlock, sans-serif;
+    font-size: 200%;
 }
 
 /* logo */
@@ -82,15 +89,16 @@ h1 {
 /* hero-image */
 
 #hero-outer {
-    height: 580px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
 }
 
 #hero-image {
-    height: 580px;
+    height: 250px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat 70% center;
+    background-size: cover;
 
     /* animates zoom effect on loading page */
 
@@ -111,13 +119,21 @@ animation-fill-mode: forwards;
 }
 
 /* about seville section */
-h2 {
-    font-family: Lato, sans-serif;
-}
 
 #about-seville {
-    background-color: #e7eff1;
     padding: 1vh;
+}
+
+/* things to do section */
+
+#things-to-do {
+    padding: 1vh;
+    height: 30vh;
+    width: 100%;
+    border: solid red;
+    border-width: 2px;
+    background: url(../images/plaza-background.jpeg) no-repeat center center;
+    background-size: cover;
 }
 
 /* footer */
@@ -159,12 +175,29 @@ footer {
     h1 {
         font-size: 300%;
     }
+
+    #hero-outer {
+        height: 400px;
+    }
+    
+    #hero-image {
+        height: 400px;
+    }
+    
 }
 
 /* large to extra large devices */
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 300%;
+    }
+
+    #hero-outer {
+        height: 450px;
+    }
+    
+    #hero-image {
+        height: 450px;
     }
 }
 
@@ -173,6 +206,14 @@ footer {
     h1 {
         font-size: 350%;
         margin-left: 20px;
+    }
+
+    #hero-outer {
+        height: 580px;
+    }
+    
+    #hero-image {
+        height: 580px;
     }
 
     .logo {
