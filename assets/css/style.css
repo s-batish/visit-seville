@@ -160,13 +160,16 @@ animation-fill-mode: forwards;
     width: 100%;
     background: url(../images/things-to-do.jpg) no-repeat center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #things-heading {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    background-color: rgba(242, 205, 136, 0.3);
+    color: black;
+    background-color: rgba(242, 205, 136, 0.7);
+    height: fit-content;
+    width: fit-content;
 }
 
 /* contact section */
@@ -211,6 +214,10 @@ footer {
 @media screen and (min-width: 576px) {
     #cover-text {
         right: 20px;
+    }
+
+    #things-heading {
+        font-size: 60px;
     }
 }
 
@@ -257,6 +264,10 @@ footer {
         font-size: 90%;
         width: 350px;
         height: 130px;
+    }
+
+    #things-heading {
+        font-size: 70px;
     }
 }
 
@@ -307,6 +318,10 @@ footer {
     font-size: 110%;
     width: 390px;
     height: 160px;
+}
+
+#things-heading {
+    font-size: 80px;
 }
 
 }
