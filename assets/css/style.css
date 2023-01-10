@@ -172,6 +172,12 @@ animation-fill-mode: forwards;
     width: fit-content;
 }
 
+#things-intro {
+    padding: 10px;
+    text-align: center;
+    font-size: 110%;
+}
+
 /* contact section */
 
 #contact {
