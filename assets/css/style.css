@@ -150,12 +150,16 @@ animation-fill-mode: forwards;
 
 #about-seville {
     padding: 1vh;
+    text-align: center;
+}
+
+#end-about {
+    font-size: 110%;
 }
 
 /* things to do section */
 
 #things-to-do {
-    padding: 1vh;
     height: 20vh;
     width: 100%;
     background: url(../images/things-to-do.jpg) no-repeat center center;
