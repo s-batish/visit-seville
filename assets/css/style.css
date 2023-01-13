@@ -288,6 +288,13 @@ footer {
     #things-heading {
         font-size: 70px;
     }
+
+    .things-items {
+        width: 50%;
+        
+    }
+
+   
 }
 
 /* bigger than extra large devices */
