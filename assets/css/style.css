@@ -191,6 +191,18 @@ animation-fill-mode: forwards;
     width:100%;
 }
 
+/* gallery */
+
+#photos {
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
 /* contact section */
 
 #contact {
