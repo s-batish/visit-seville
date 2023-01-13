@@ -290,11 +290,22 @@ footer {
     }
 
     .things-items {
-        width: 50%;
-        
+        height: 100%;
+        width: 47%;
+        display: inline-block;
+        margin: 10px;
     }
 
-   
+    #things-outer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #last-things-outer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
 }
 
 /* bigger than extra large devices */
@@ -348,6 +359,23 @@ footer {
 
 #things-heading {
     font-size: 80px;
+}
+
+.things-items {
+    height: 100%;
+    width: 31%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#things-outer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#last-things-outer {
+    display: flex;
+    justify-content: center;
 }
 
 }
