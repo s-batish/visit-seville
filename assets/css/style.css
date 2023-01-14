@@ -196,11 +196,12 @@ animation-fill-mode: forwards;
 #photos {
     line-height: 0;
     column-count: 2;
-    column-gap: 0;
+    column-gap: 5px;
 }
 
 #photos > img {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 /* contact section */
@@ -272,6 +273,14 @@ footer {
         font-size: 80%;
         width: 290px;
         height: 130px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+    
+    #photos > img {
+        width: 100%;
     }
 }
 
@@ -388,6 +397,14 @@ footer {
 #last-things-outer {
     display: flex;
     justify-content: center;
+}
+
+#photos {
+    column-count: 4;
+}
+
+#photos > img {
+    width: 100%;
 }
 
 }
