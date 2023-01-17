@@ -28,6 +28,16 @@ h2 {
     font-size: 250%;
 }
 
+h3 {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
 /* logo */
 
 header>div {
@@ -210,6 +220,20 @@ h1 {
     background-color: rgba(242, 205, 136, 0.7);
     height: fit-content;
     width: fit-content;
+}
+
+#visit-section {
+    margin: 10px;
+    font-size: 16px;
+}
+
+#visit-intro {
+    text-align: center;
+    font-size: 110%;
+}
+
+hr {
+    border-top: 1px solid #404040;
 }
 
 /* gallery */
