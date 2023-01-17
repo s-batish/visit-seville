@@ -148,7 +148,7 @@ h1 {
     align-items: center;
 }
 
-/* about seville section */
+/* about seville page */
 
 #about-seville {
     padding: 1vh;
@@ -159,7 +159,7 @@ h1 {
     font-size: 110%;
 }
 
-/* things to do section */
+/* things to do page */
 
 #things-to-do {
     height: 20vh;
@@ -191,6 +191,25 @@ h1 {
 #things img {
     height: 100%;
     width: 100%;
+}
+
+/* when to visit */
+
+#when-to-visit {
+    height: 20vh;
+    width: 100%;
+    background: url(../images/when-to-visit.jpeg) no-repeat center 70%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#visit-heading {
+    color: black;
+    background-color: rgba(242, 205, 136, 0.7);
+    height: fit-content;
+    width: fit-content;
 }
 
 /* gallery */
