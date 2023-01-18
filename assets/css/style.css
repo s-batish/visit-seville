@@ -193,6 +193,10 @@ h1 {
     font-size: 110%;
 }
 
+#things-outro {
+    text-align: center;
+}
+
 #things {
     margin: 10px;
     font-size: 16px;
