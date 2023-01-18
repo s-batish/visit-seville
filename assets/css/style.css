@@ -393,6 +393,10 @@ footer {
         height: 130px;
     }
 
+    #visit-section {
+        margin: 20px;
+    }
+
     #photos {
         column-count: 3;
     }
@@ -400,6 +404,7 @@ footer {
     #photos>img {
         width: 100%;
     }
+
 }
 
 /* large to extra large devices */
@@ -444,6 +449,11 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
+
+    #visit-heading {
+        font-size: 70px;
+    }
+
 
     .contact-us {
         padding: 20px;
@@ -533,6 +543,10 @@ footer {
     #last-things-outer {
         display: flex;
         justify-content: center;
+    }
+
+    #visit-heading {
+        font-size: 80px;
     }
 
     #photos {
