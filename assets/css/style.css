@@ -259,7 +259,7 @@ hr {
 
 #contact-background {
     width: 100%;
-    height: 90vh;
+    height: 900px;
     background: url(../images/form-background.jpg) no-repeat center 20%;
     background-size: cover;
 }
