@@ -26,6 +26,7 @@ header {
 h2 {
     font-family: Overlock, sans-serif;
     font-size: 250%;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -134,13 +135,14 @@ h1 {
 
 #cover-text h2 {
     font-weight: 500;
+    text-transform: none;
 }
 
 #cover-text {
     font-size: 70%;
     color: black;
     font-style: italic;
-
+    
     width: 250px;
     height: 120px;
 
