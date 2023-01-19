@@ -313,7 +313,7 @@ form>h2 {
 
 /* thank you page */
 
-#thank-you-background {
+#thank-you-background, #error-background {
     text-align: center;
     width: 100%;
     height: 100vh;
@@ -321,7 +321,7 @@ form>h2 {
     background-size: cover;
 }
 
-.thank-you {
+.thank-you, .error {
     background-color: rgba(243, 205, 136, 0.8);
     margin: 10%;
     position: absolute;
