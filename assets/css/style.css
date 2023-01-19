@@ -246,8 +246,9 @@ hr {
 
 #photos {
     line-height: 0;
-    column-count: 2;
+    column-count: 1;
     column-gap: 5px;
+    margin: 5px;
 }
 
 #photos>img {
@@ -372,6 +373,13 @@ footer {
 }
 
 /* media queries */
+
+/* small devices */
+@media screen and (min-width: 400px) {
+    #photos {
+        column-count: 2;
+    }
+}
 
 /* small to medium devices */
 @media screen and (min-width: 576px) {
