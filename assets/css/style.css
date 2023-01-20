@@ -527,7 +527,7 @@ footer {
         font-size: 25px;
     }
 
-    #thank-you-background, #error-background {
+    #thank-you-background {
         display: flex;
         justify-content: center;
     }
@@ -584,12 +584,20 @@ footer {
         width: 100%;
     }
 
-    .thank-you h3 {
+    .thank-you h3, .error h3 {
         font-size: 22px;
     }
 
     .thank-you p {
         font-size: 18px;
+    }
+
+    .error h2 {
+        font-size: 42px;
+    }
+
+    .error {
+        padding: 20px;
     }
 
 }
