@@ -27,6 +27,7 @@ h2 {
     font-family: Overlock, sans-serif;
     font-size: 250%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h3 {
@@ -87,7 +88,7 @@ h1 {
 #menu-items li {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 #menu-items a:hover {
@@ -97,7 +98,7 @@ h1 {
 #menu-items .active {
     text-decoration: underline #404040;
 }
-
+/* home page */
 /* hero-image and cover text */
 
 #hero-outer {
@@ -160,15 +161,40 @@ h1 {
     align-items: center;
 }
 
-/* about seville page */
+/* about seville section */
 
 #about-seville {
-    padding: 1vh;
+    margin: 10px;
     text-align: center;
 }
 
 #end-about {
     font-size: 110%;
+}
+
+/* when to visit section */
+
+#when-to-visit {
+    height: 20vh;
+    width: 100%;
+    background: url(../images/when-to-visit.jpeg) no-repeat center 70%;
+    background-size: cover;
+}
+
+#visit-section {
+    margin: 10px;
+}
+
+#visit-intro {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #404040;
+}
+
+#visit-content {
+    text-align: start;
 }
 
 /* things to do page */
@@ -209,40 +235,7 @@ h1 {
     width: 100%;
 }
 
-/* when to visit */
-
-#when-to-visit {
-    height: 20vh;
-    width: 100%;
-    background: url(../images/when-to-visit.jpeg) no-repeat center 70%;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#visit-heading {
-    color: black;
-    background-color: rgba(242, 205, 136, 0.7);
-    height: fit-content;
-    width: fit-content;
-}
-
-#visit-section {
-    margin: 10px;
-    font-size: 16px;
-}
-
-#visit-intro {
-    text-align: center;
-    font-size: 110%;
-}
-
-hr {
-    border-top: 1px solid #404040;
-}
-
-/* gallery */
+/* gallery page */
 
 #photos {
     line-height: 0;
@@ -256,7 +249,7 @@ hr {
     margin-bottom: 5px;
 }
 
-/* contact section */
+/* contact page */
 
 #contact-background {
     width: 100%;
