@@ -488,7 +488,7 @@ footer {
         font-size: 25px;
     }
 
-    #thank-you-background {
+    #thank-you-background, #error-background {
         display: flex;
         justify-content: center;
     }
