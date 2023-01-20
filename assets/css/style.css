@@ -98,6 +98,7 @@ h1 {
 #menu-items .active {
     text-decoration: underline #404040;
 }
+
 /* home page */
 /* hero-image and cover text */
 
@@ -331,11 +332,18 @@ form>h2 {
     border-radius: 2px;
     padding: 5px;
     border: 1px solid #404040;
+    text-decoration: none;
+    color: black;
 }
 
 .return-home:hover {
     background-color: #404040;
     color: #F2CD88;
+}
+
+#error-background {
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
