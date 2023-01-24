@@ -157,4 +157,26 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 ## Testing
 ## Deployment
+- The website was deployed to Github pages. The steps to deploy are as follows:
+    - Login to Github and find the Github repository 'Visit Seville'
+    - Click on the 'Settings' button at the top of the repository
+    - Click on 'Pages' on the left hand side navigation menu
+    - Select 'Deploy from a branch' under 'Source' if this is not already selected
+    - Under the 'Branch' drop down menus, select 'main' and 'root'
+    - Click 'Save'
+    - Once the page refreshes, the live link should appear underneath the 'Github Pages' title
+    
+The live link can be found here: https://s-batish.github.io/visit-seville/
 ## Credits
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - Used to aid with my understanding of how to use flexbox
+- [W3Schools](https://www.w3schools.com/css/css3_gradients.asp)
+    - Code was used from this website to implement a gradient on the header
+### Content
+- All content was written by myself but was inspired by:
+    - [Welcome to Seville](https://welcometoseville.com/)
+    - [Hand Luggage Only](https://handluggageonly.co.uk/2019/01/03/11-best-things-to-do-in-seville-spain/)
+    - [Lonely Planet](https://www.lonelyplanet.com/articles/best-time-to-visit-seville)
+
+### Media
+- All images were taken from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/), and [Pixabay](https://pixabay.com/)
