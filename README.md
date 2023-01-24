@@ -114,9 +114,47 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 ### Contact us page features
 - Sign up form
-    - This form enables users to contact 
-### Features left to implement 
+    - This form enables users to contact the Visit Seville team to request a free monthly newsletter about the city and/or to ask any specific questions that they still have.
+    - The form includes the following fields and attributes:
+        - Name (required, type=text)
+        - Email (required, type=email)
+        - Would you like to sign up to our monthly newsletter? Yes/No (required, type=radio)
+        - Let us know if you have any specific questions below. We're always happy to help! (type=textarea)
+
+![Contact Us form](docs/features/contact-form.png)
+
+- Thank you page
+    - If the user successfully fills out the form, they will be taken to a Thank you page once they press the submit button. This page will include a 'Return to home page' button so that the user can continue browsing the website.
+
+![Thank you page](docs/features/thank-you.png)
+
+### Features left to implement
+- The Contact us form will be updated with the technologies required to send the contact details, sign up option and questions to a database so that the user will be able to receive their newsletter and/or have their questions answered.
+- Each gallery image could be clicked on to expand with a small description of what each photo is.
 ## Technologies
+- HTML
+    - The main language used throughout the website to create the structure
+- CSS
+    - Used to implement styling across the website
+- Gitpod
+    - Used to develop and edit the code
+- Git
+    - Used to commit and push the code
+- Github
+    - Used to store and deploy the code
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create wireframes
+- [Google Fonts](https://fonts.google.com/)
+    - Used to import fonts
+- [Font Awesome](https://fontawesome.com/icons)
+    - Used icons from this website as the social media links
+- [Fontjoy](https://fontjoy.com/)
+    - Used to create the font pairings used on the website
+- [TinyPNG](https://tinypng.com/)
+    - Used to reduce the size of the images used throughout the website
+- [Favicon](https://favicon.io/)
+    - Used to create a favicon
+
 ## Testing
 ## Deployment
 ## Credits
