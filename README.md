@@ -25,16 +25,16 @@ Visit Seville is a tourist information website for people interested in visiting
 ### Wireframes
 Balsamiq wireframes were created for mobile, tablet and desktop devices to show the structure and overall design of each page.
 
-[Home page wireframe](docs/home-wireframe.png)
+[Home page wireframe](docs/wireframes/home-wireframe.png)
 
-[Things to do wireframe](docs/things-to-do-wireframe.png)
+[Things to do wireframe](docs/wireframes/things-to-do-wireframe.png)
 
-[When to visit wireframe](docs/when-to-visit-wireframe.png)
+[When to visit wireframe](docs/wireframes/when-to-visit-wireframe.png)
 - Initially the 'When to visit' section of information was intended to be laid out on a separate page, which can be seen in the wireframe above. However, after a discussion with my mentor, it was decided that it looked better, and made more sense, to have this section of information on the homepage underneath the 'About Seville section' instead.
 
-[Gallery wireframe](docs/gallery-wireframe.png)
+[Gallery wireframe](docs/wireframes/gallery-wireframe.png)
 
-[Contact us wireframe](docs/contact-wireframe.png)
+[Contact us wireframe](docs/wireframes/contact-wireframe.png)
 
 ### Colour scheme
 ![Visit Seville website colour palette](docs/colour-palette.png)
@@ -55,27 +55,66 @@ The website is made up of six pages, four of which are accessible from the navig
     - The navigation bar is responsive on all devices. For mobiles and small devices, the navigation bar items are stacked in a column. But as the screen size increases, the menu items display horizontally and their font size, as well as the logo size, increase at various intervals, through the use of media queries.
     - A horizontal line displays underneath the active page that the user is on so that they can clearly see which page they are currently on. The horizontal line will also display underneath each menu item when the user hovers over it.
 
-![Nav bar](docs/nav-bar.png)
+![Nav bar](docs/features/nav-bar.png)
 
 - Footer
     - The footer appears at the bottom of each of the four main pages and contains icons as links to social media websites that will open in a new tab. Aria labels have been used on the social media icons to ensure the footer is accessible to the visually impaired.
 
-![Footer](docs/footer.png)
+![Footer](docs/features/footer.png)
 
 - Favicon
     - A favicon icon of the Spanish flag will display on every page of the website to make the website easily identifiable in the tabs header.
 
-![Favicon](docs/favicon.png)
+![Favicon](docs/features/favicon.png)
 
 - 404 page
     - The 404 page has been implemented to display if a user is misdirected to a broken link. It has a 'Return to main website button' to direct the user to the home page without the need to click the back button on their browser.
 
-![404 page](docs/404-page.png)
+![404 page](docs/features/404-page.png)
 
 ### Home page features
+- Hero image
+    - This is a picture of one of Seville's main attractions (the Plaza de España) with cover text statement to entice users to explore the site further.
+    - The image zooms in when the user clicks on the logo/Home link on the nav bar, and it was chosen to be the hero image because it is one of the most popular landmarks in Seville, so is instantly recognisable for those who may know a little about the city, and for those who know nothing about the city, it is an eye catching structure that is made more appealing through the zoom feature. Moreover, it stretches nicely across the screen on large screen sizes, while also resizing on smaller devices to ensure that it always grabs the attention of the user.
+    - The cover text also increases as the screen size increases so that it is proportioned well against the image.
+
+![Hero image](docs/features/hero-image.png)
+
+- About Seville section
+    - This section provides a brief introduction to Seville by mentioning some of the key features of the city, which have been highlighted in bold to draw the user's attention to these aspects.
+    - This section lets the user know what to expect, at a glance, from a visit to Seville.
+
+![About Seville](docs/features/about-seville.png)
+
+- When to visit section
+    - This section features underneath the About Seville section and is separated from that section with an image of a typical Sevillian street that is in keeping with the colour scheme.
+    - This section provides clear information to the user about the best time of year to visit the city, and it is divided into smaller sections to make it easier for users to identify the best time to visit based on their needs.
+    - Below this, there is a link directly to the Contact us form to make it easier for users to enquire further about when to visit.
+
+![When to visit](docs/features/when-to-visit.png)
+
 ### Things to do page features
+- Things to do
+    - This page provides the user with eight recommendations for things to see and do in Seville.
+    - Each attraction is displayed with what it is, a photo of it, and some information below detailing why it should be visited.
+    - This section is fully responsive. On small and medium sized devices the recommendations are displayed in a single column on top of each other, so that the images are clear and the screen does not look congested with information. On large to extra large devices the content is displayed in two columns and on larger than extra large devices the content is displayed in three columns. This is to ensure that the recommendations are presentable and easily digestible for the user.
+
+![Things to do](docs/features/things-to-do.png)
+
+Below all of the recommendations, there is a link directly to the Contact us form for users who wish to find out more in a monthly newsletter about the city.
+
+![Things to do contact form](docs/features/things-to-do-end.png)
+
 ### Gallery page features
+- Gallery page
+    - This page provides a fully responsive insight into the key features of Seville through photos. This gives the user a snapshot of what is to be expected upon visiting the city.
+    - Media queries have been used to change the size of the photos and the number of columns that they will appear in. This is to ensure that the photos are always clear for the user no matter what screen size they are viewing them on.
+
+![Gallery](docs/features/gallery.png)
+
 ### Contact us page features
+- Sign up form
+    - This form enables users to contact 
 ### Features left to implement 
 ## Technologies
 ## Testing
