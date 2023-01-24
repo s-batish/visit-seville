@@ -257,7 +257,9 @@ hr {
     height: 900px;
     background: url(../images/form-background.webp) no-repeat center 20%;
     background-size: cover;
-}
+    display: flex;
+    justify-content: center;
+} 
 
 .contact-us {
     background-color: rgba(243, 205, 136, 0.9);
@@ -289,6 +291,7 @@ form>h2 {
     font-size: 16px;
     resize: none;
     padding: 5px;
+    margin-bottom: 5px;
 }
 
 ::placeholder {
@@ -461,6 +464,10 @@ footer {
         width: 100%;
     }
 
+    #contact-background {
+        height: 1150px;
+    }
+
 }
 
 /* large to extra large devices */
@@ -520,11 +527,6 @@ footer {
 
     .contact-us {
         padding: 20px 30px 20px 20px;
-    }
-
-    #contact-background {
-        display: flex;
-        justify-content: center;
     }
 
     form>h2 {

@@ -36,6 +36,8 @@ Balsamiq wireframes were created for mobile, tablet and desktop devices to show 
 
 [Contact us wireframe](docs/wireframes/contact-wireframe.png)
 
+There are no wireframes for the Thank you and 404 pages as these pages were implemented after work on the project had already begun, and they use the same background and style as the Contact us page.
+
 ### Colour scheme
 ![Visit Seville website colour palette](docs/colour-palette.png)
 
@@ -63,7 +65,7 @@ The website is made up of six pages, four of which are accessible from the navig
 ![Footer](docs/features/footer.png)
 
 - Favicon
-    - A favicon icon of the Spanish flag will display on every page of the website to make the website easily identifiable in the tabs header.
+    - A favicon icon of the Spanish flag will display on every page of the website to make the website easily identifiable in the browser tab's header.
 
 ![Favicon](docs/features/favicon.png)
 
@@ -156,6 +158,14 @@ Below all of the recommendations, there is a link directly to the Contact us for
     - Used to create a favicon
 
 ## Testing
+### Responsiveness
+### Accessibility
+### Validator testing
+### Lighthouse testing
+### Manual testing
+### Testing user stories
+### Unfixed bugs
+
 ## Deployment
 - The website was deployed to Github pages. The steps to deploy are as follows:
     - Login to Github and find the Github repository 'Visit Seville'
