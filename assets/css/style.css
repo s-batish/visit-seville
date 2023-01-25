@@ -473,7 +473,8 @@ footer {
     }
 
     #contact-background {
-        height: 1240px;
+        width: auto;
+        min-height: 1240px;
     }
 
 }
@@ -624,4 +625,11 @@ footer {
         padding: 20px;
     }
 
+}
+
+/* media query for contact, thank you and error backgrounds for 4k screen sizes  */
+@media screen and (min-height: 1200px) {
+    #contact-background, #thank-you-background, #error-background {
+        height: 1650px;
+    }
 }

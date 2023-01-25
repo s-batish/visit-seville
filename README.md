@@ -160,8 +160,8 @@ Below all of the recommendations, there is a link directly to the Contact us for
 ## Testing
 ### Responsiveness
 
-- The website has been tested on Chrome, Edge and Firefox as well as on an iPhone 11, iPhone 13 mini, Samsung ..., and iPad ... in order to check the responsiveness on different devices and different browsers.
-- The responsiveness of the site has also been tested using developer tools by adjusting the size of the screen and checking that all the content remains legible and clearly formatted, and that all pictures are clear and unpixelated.
+- The website has been tested on Chrome, Edge and Firefox as well as on an iPhone 11, iPhone 13 mini, Samsung Galaxy S22, and iPad 6th Generation in order to check the responsiveness on different devices and different browsers.
+- The responsiveness of the site has also been tested for all screens larger than 320 pixels using developer tools by adjusting the size of the screen and checking that all the content remains legible and clearly formatted, and that all pictures are clear and unpixelated.
 
 ### Accessibility
 - [Wave](https://wave.webaim.org/) accessibility tool was used to check how accessible the entire website is. No accessibility errors were found on any of the pages and these results can be viewed below:
@@ -174,7 +174,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 - Aria-labels have been used on the social media icons to state what those links do and that they will open in a new tab. An aria-label has also been used on the link that says 'here' on the 'Things to do' page to explain where this link will take the user.
 - On all of the image elements, the alt attribute has been used to describe each of the images.
-- Heading levels have been used in the correct order, with none being skipped, to ensure that the user can easily see the importance of the content. 
+- Heading levels have been used in the correct order, with none being skipped, to ensure that the user can easily see the importance of the content based on the headings. 
 ### Validator testing
 - HTML
     - No errors were found when passed through the official [W3C validator](https://validator.w3.org/). The results can be found below:
