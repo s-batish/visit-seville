@@ -160,10 +160,89 @@ Below all of the recommendations, there is a link directly to the Contact us for
 ## Testing
 ### Responsiveness
 ### Accessibility
+- [Wave](https://wave.webaim.org/) accessibility tool was used to check how accessible the entire website is. No accessibility errors were found on any of the pages and these results can be viewed below:
+    - [Home page](docs/testing/home-wave.png)
+    - [Things to do page](docs/testing/things-to-do-wave.png)
+    - [Gallery page](docs/testing/gallery-wave.png)
+    - [Contact us page](docs/testing/contact-wave.png)
+    - [Thank you page](docs/testing/thank-you-wave.png)
+    - [404 page](docs/testing/404-wave.png)
+
+- Aria-labels have been used on the social media icons to state what those links do and that they will open in a new tab. An aria-label has also been used on the link that says 'here' on the 'Things to do' page to explain where this link will take the user.
+- On all of the image elements, the alt attribute has been used to describe each of the images.
+- Heading levels have been used in the correct order, with none being skipped, to ensure that the user can easily see the importance of the content. 
 ### Validator testing
+- HTML
+    - No errors were found when passed through the official [W3C validator](https://validator.w3.org/). The results can be found below:
+        - [Home page](docs/testing/home-validator.png)
+        - [Things to do page](docs/testing/things-to-do-validator.png)
+        - [Gallery page](docs/testing/gallery-validator.png)
+        - [Contact us page](docs/testing/contact-validator.png)
+        - [Thank you page](docs/testing/thank-you-validator.png)
+        - [404 page](docs/testing/404-validator.png)
+- CSS
+    - No errors were found when passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/). The results can be found below:
+        - [CSS](docs/testing/css-validator.png)
 ### Lighthouse testing
 ### Manual testing
+Thorough testing of the site has been undertaken to ensure that it runs as expected and that all links and features are working exactly as they should be.
+- Navigation and footer links
+    - These links were tested on each of the four main pages of the website and the results can be seen below:
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| Logo| When clicked, the user is taken to the 'Home' page| Clicked the logo| Taken to the 'Home' page|
+|Home link|The text underlines when hovering over it. When clicked, the user is taken to the 'Home' page. The text remains underlined when on the 'Home' page.|Hovered over the text. Clicked the 'Home' link.|The text underlines when hovered over. Taken to the 'Home' page when clicked. Text remains underlined when on the 'Home' page.|
+|Things to do link|The text underlines when hovering over it. When clicked, the user is taken to the 'Things to do' page. The text remains underlined when on the 'Things to do' page.|Hovered over the text. Clicked the 'Things to do' link|The text underlines when hovered over. Taken to the 'Things to do' page when clicked. Text remains underlined when on the 'Things to do' page.|
+|Gallery link|The text underlines when hovering over it. When clicked, the user is taken to the 'Gallery' page. The text remains underlined when on the 'Gallery' page.|Hovered over the text. Clicked the 'Gallery' link|The text underlines when hovered over. Taken to the 'Gallery' page when clicked. Text remains underlined when on the 'Gallery' page.|
+| Facebook icon| When clicked, the user is taken to Facebook website in a new tab| Clicked the icon| Taken to the Facebook website in a new tab.|
+| Instagram icon| When clicked, the user is taken to Instagram website in a new tab| Clicked the icon| Taken to the Instagram website in a new tab.|
+| Twitter icon| When clicked, the user is taken to Twitter website in a new tab| Clicked the icon.| Taken to the Twitter website in a new tab.|
+
+- 'Home' page
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| 'Contact us' link| When clicked, the user is taken to the 'Contact us' page.| Clicked the link| Taken to the 'Contact us' page.|
+
+- 'Things to do' page
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| 'here' link| When clicked, the user is taken to the 'Contact us' page.| Clicked the link.| Taken to the 'Contact us' page.|
+
+- 'Contact us' page
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| Fill out the form correctly| After pressing 'submit' the user is taken to the 'Thank you' page.| Filled out the form with a name, valid email address and selected the 'yes' radio button. Then pressed 'submit'.| Taken to the 'Thank you' page.|
+| Fill out the form with no name| After pressing 'submit', the form does not submit. The user is presented with an error message to fill out the field.| Filled out the form without a name, but with a valid email address and selected the 'yes' radio button. Then pressed 'submit'.| Form does not submit and error message displayed.|
+| Fill out the form with no email| After pressing 'submit', the form does not submit. The user is presented with an error message to fill out the field.| Filled out the form without email, but with a name and selected the 'yes' radio button. Then pressed 'submit'| Form does not submit and error message displayed.|
+| Fill out the form with incorrect email format| After pressing 'submit', the form does not submit. The user is presented with an error message to input a valid email address correctly.| Filled out the form with incorrect email format, but with a name and selected the 'yes' radio button. Then pressed 'submit'.| Form does not submit and error message displayed.|
+| Fill out the form without checking a radio button| After pressing 'submit', the form does not submit. The user is presented with an error message to select one of the options.| Filled out the form with a name and valid email address, but without selecting one of the radio buttons. Then pressed 'submit'.| Form does not submit and error message displayed.|
+| Fill out the form correctly and with a message longer than the size of the textarea box| The size of the box does not increase, but has allows the user to scroll down. After pressing 'submit' the user is taken to the 'Thank you' page.| Filled out the form with a name, valid email address, selected the 'yes' radio button and wrote a message longer than the size of the textarea box. Then pressed 'submit'.| The size of the box does not increase, but has allows the user to scroll down. After pressing 'submit', taken to the 'Thank you' page.|
+
+- 'Thank you' page
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| Logo| When clicked, the user is taken to the 'Home' page.| Clicked the logo.| Taken to the 'Home' page.|
+| 'Return to home page' link| The button and text colours change when hovering over it. When clicked, the user is taken to the 'Home' page.| Clicked the link.| The button and text colours changed when hovering over it. Taken to the 'Home' page when clicked.|
+
+- '404' page
+
+| Feature | Expect | Action | Result |
+| ---| ---| ---| ---|
+| Logo| When clicked, the user is taken to the 'Home' page.| Clicked the logo.| Taken to the 'Home' page.|
+| 'Return to home page' link| The button and text colours change when hovering over it. When clicked, the user is taken to the 'Home' page.| Clicked the link.| The button and text colours changed when hovering over it. Taken to the 'Home' page when clicked.|
+
 ### Testing user stories
+- Expectation: I want to easily find out about the key sites to visit in Seville and to know when is best to visit based on price and climate.
+    - Result: The site is easy to navigate, thanks to the navigation menu at the top of every page, so it is easy to find a list of things to do, and there is detailed information on the home page explaining when the best time to visit is, which is divided into sections to make it clear when it will be cheaper or better weather.
+- Expectation: I want to see what the main features of the city look like.
+    - Result: The gallery page has a range of photos of the city so it is easy to get a detailed overview of what the key features of the city look like. Also, the 'Things to do' page provides an image of the main attractions accompanied by a description of what they are.
+- Expectation: I want to easily contact someone to ask further questions and to be regularly updated about events in the city
+    - Result: The 'Contact us' page is easy to find, thanks to a link to this page being displayed in the navigation menu on each page. The form is easy to fill out depending on whether you want to sign up to a newsletter about the city, or ask specific questions, or both. The placeholder text on the form makes it even easier to know what to fill out in each of the text boxes. Also, there are links directly to this page at the bottom of the 'Home' and 'Things to do' pages, which again makes it very easy to get in contact with someone.
 ### Unfixed bugs
 
 ## Deployment
