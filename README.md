@@ -132,7 +132,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 ### Features left to implement
 - The Contact us form will be updated with the technologies required to send the contact details, sign up option and questions to a database so that the user will be able to receive their newsletter and/or have their questions answered.
-- Each gallery image could be clicked on to expand with a small description of what each photo is.
+- Each gallery image developed to expand when clicked on with a small description of what each photo is.
 ## Technologies
 - HTML
     - The main language used throughout the website to create the structure
@@ -141,7 +141,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
 - Gitpod
     - Used to develop and edit the code
 - Git
-    - Used to commit and push the code
+    - Used to add, commit and push the code
 - Github
     - Used to store and deploy the code
 - [Balsamiq](https://balsamiq.com/)
@@ -172,7 +172,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
     - [Thank you page](docs/testing/thank-you-wave.png)
     - [404 page](docs/testing/404-wave.png)
 
-- Aria-labels have been used on the social media icons to state what those links do and that they will open in a new tab. An aria-label has also been used on the link that says 'here' on the 'Things to do' page to explain where this link will take the user.
+- Aria-labels have been used on the social media icons to state what those links do and that they will open in a new tab.
 - On all of the image elements, the alt attribute has been used to describe each of the images.
 - Heading levels have been used in the correct order, with none being skipped, to ensure that the user can easily see the importance of the content based on the headings. 
 ### Validator testing
@@ -188,6 +188,13 @@ Below all of the recommendations, there is a link directly to the Contact us for
     - No errors were found when passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/). The results can be found below:
         - [CSS](docs/testing/css-validator.png)
 ### Lighthouse testing
+Lighthouse testing was carried out to test the performance, accessibility, best practices and SEO of the website.
+
+![Home page](docs/testing/home-lighthouse.png)
+![Things to do page](docs/testing/things-to-do-lighthouse.png)
+![Gallery page](docs/testing/gallery-lighthouse.png)
+![Contact us page](docs/testing/contact-lighthouse.png)
+![Thank you page](docs/testing/thank-you-lighthouse.png)
 ### Manual testing
 Thorough testing of the site has been undertaken to ensure that it runs as expected and that all links and features are working exactly as they should be.
 - Navigation and footer links
@@ -213,7 +220,7 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
 
 | Feature | Expect | Action | Result |
 | ---| ---| ---| ---|
-| 'here' link| When clicked, the user is taken to the 'Contact us' page.| Clicked the link.| Taken to the 'Contact us' page.|
+| 'Contact us' link| When clicked, the user is taken to the 'Contact us' page.| Clicked the link.| Taken to the 'Contact us' page.|
 
 - 'Contact us' page
 
@@ -247,7 +254,7 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
     - Result: The gallery page has a range of photos of the city so it is easy to get a detailed overview of what the key features of the city look like. Also, the 'Things to do' page provides an image of the main attractions accompanied by a description of what they are.
 - Expectation: I want to easily contact someone to ask further questions and to be regularly updated about events in the city
     - Result: The 'Contact us' page is easy to find, thanks to a link to this page being displayed in the navigation menu on each page. The form is easy to fill out depending on whether you want to sign up to a newsletter about the city, or ask specific questions, or both. The placeholder text on the form makes it even easier to know what to fill out in each of the text boxes. Also, there are links directly to this page at the bottom of the 'Home' and 'Things to do' pages, which again makes it very easy to get in contact with someone.
-### Unfixed bugs
+
 
 ## Deployment
 - The website was deployed to Github pages. The steps to deploy are as follows:
