@@ -159,6 +159,10 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 ## Testing
 ### Responsiveness
+
+- The website has been tested on Chrome, Edge and Firefox as well as on an iPhone 11, iPhone 13 mini, Samsung ..., and iPad ... in order to check the responsiveness on different devices and different browsers.
+- The responsiveness of the site has also been tested using developer tools by adjusting the size of the screen and checking that all the content remains legible and clearly formatted, and that all pictures are clear and unpixelated.
+
 ### Accessibility
 - [Wave](https://wave.webaim.org/) accessibility tool was used to check how accessible the entire website is. No accessibility errors were found on any of the pages and these results can be viewed below:
     - [Home page](docs/testing/home-wave.png)
