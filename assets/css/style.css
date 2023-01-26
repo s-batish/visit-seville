@@ -322,6 +322,8 @@ form>h2 {
     height: 100vh;
     background: url(../images/form-background.webp) no-repeat center 20%;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .thank-you, .error {
@@ -347,11 +349,6 @@ form>h2 {
 .return-home:hover {
     background-color: #404040;
     color: #F2CD88;
-}
-
-#error-background {
-    display: flex;
-    justify-content: center;
 }
 
 /* footer */
@@ -407,9 +404,7 @@ footer {
     .menu {
         width: 55%;
         margin-right: 20px;
-        display: flex;
         flex-direction: row;
-        justify-content: flex-end;
         align-items: center;
     }
 
@@ -466,10 +461,6 @@ footer {
 
     #photos {
         column-count: 3;
-    }
-
-    #photos>img {
-        width: 100%;
     }
 
     #contact-background {
@@ -549,11 +540,6 @@ footer {
         font-size: 25px;
     }
 
-    #thank-you-background {
-        display: flex;
-        justify-content: center;
-    }
-
 }
 
 /* bigger than extra large devices */
@@ -603,10 +589,6 @@ footer {
 
     #photos {
         column-count: 4;
-    }
-
-    #photos>img {
-        width: 100%;
     }
 
     .thank-you h3, .error h3 {

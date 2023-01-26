@@ -132,7 +132,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
 
 ### Features left to implement
 - The Contact us form will be updated with the technologies required to send the contact details, sign up option and questions to a database so that the user will be able to receive their newsletter and/or have their questions answered.
-- Each gallery image developed to expand when clicked on with a small description of what each photo is.
+- Each gallery image will be developed to expand when clicked on with a small description of what each photo is.
 ## Technologies
 - HTML
     - The main language used throughout the website to create the structure
