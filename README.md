@@ -36,7 +36,9 @@ Balsamiq wireframes were created for mobile, tablet and desktop devices to show 
 
 [Contact us wireframe](docs/wireframes/contact-wireframe.png)
 
-There are no wireframes for the Thank you and 404 pages as these pages were implemented after work on the project had already begun, and they use the same background and style as the Contact us page.
+[Thank you wireframe](docs/wireframes/thank-you-wireframe.png)
+
+[404 wireframe](docs/wireframes/404-wireframe.png)
 
 ### Colour scheme
 ![Visit Seville website colour palette](docs/colour-palette.png)
@@ -254,6 +256,14 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
     - Result: The gallery page has a range of photos of the city so it is easy to get a detailed overview of what the key features of the city look like. Also, the 'Things to do' page provides an image of the main attractions accompanied by a description of what they are.
 - Expectation: I want to easily contact someone to ask further questions and to be regularly updated about events in the city
     - Result: The 'Contact us' page is easy to find, thanks to a link to this page being displayed in the navigation menu on each page. The form is easy to fill out depending on whether you want to sign up to a newsletter about the city, or ask specific questions, or both. The placeholder text on the form makes it even easier to know what to fill out in each of the text boxes. Also, there are links directly to this page at the bottom of the 'Home' and 'Things to do' pages, which again makes it very easy to get in contact with someone.
+
+### Solved bugs
+- Problem: Photos were not displaying on 'Things to do' page when site was first deployed
+    - Solution: Changed file paths from absolute to relative to make them display properly
+- Problem: Form was not displaying properly on phone (the bottom of the form was expanding underneath the footer and the background image was not long enough)
+    - Solution: Increased the background image height to make it larger than the form content so that there would be no overlaps
+- Problem: Form background image was not long enough for extra extra large screens (eg 4k screens). This was discovered when inspecting the site on dev tools at a zoom of 50%.
+    - Solution: Set a min-height media query to fix this
 
 
 ## Deployment
