@@ -30,7 +30,7 @@ Balsamiq wireframes were created for mobile, tablet and desktop devices to show 
 [Things to do wireframe](docs/wireframes/things-to-do-wireframe.png)
 
 [When to visit wireframe](docs/wireframes/when-to-visit-wireframe.png)
-- Initially the 'When to visit' section of information was intended to be laid out on a separate page, which can be seen in the wireframe above. However, after a discussion with my mentor, it was decided that it looked better, and made more sense, to have this section of information on the homepage underneath the 'About Seville section' instead.
+- Initially the 'When to visit' section of information was intended to be laid out on a separate page, which can be seen in the wireframe above. However, after a discussion with my mentor, it was decided that it looked better, and made more sense, to have this section of information on the homepage underneath the 'About Seville' section instead.
 
 [Gallery wireframe](docs/wireframes/gallery-wireframe.png)
 
@@ -51,18 +51,18 @@ The following [Google Fonts](https://fonts.google.com/) were used for the typogr
 - Lato is used for the h3 headings
 - Hind Siliguri is used for the body text
 ## Features
-The website is made up of six pages, four of which are accessible from the navigation menu (Home page, Things to do page, Gallery page, and Contact us page). The other two pages are a Thank you page, which is displayed once the user submits the form on the Contact us page, and a 404 page, which is displayed if a user tries to reach a non-existent page on the website.
+The website is made up of six pages, four of which are accessible from the navigation menu ('Home' page, 'Things to do' page, 'Gallery' page, and 'Contact us' page). The other two pages are a 'Thank you' page, which is displayed once the user successfully submits the form on the 'Contact us' page, and a '404' page, which is displayed if a user tries to reach a non-existent page on the website.
 ### Common features
 - Navigation bar
     - The navigation bar features at the top of each of the four main pages of the website, and it is sticky to ensure that it is always visible even when scrolling down the page.
-    - It contains links to the Home, Things to do, Gallery and Contact us pages. The logo itself is also a link to the Home page.
+    - It contains links to the 'Home', 'Things to do', 'Gallery' and 'Contact us' pages. The logo itself is also a link to the Home page.
     - The navigation bar is responsive on all devices. For mobiles and small devices, the navigation bar items are stacked in a column. But as the screen size increases, the menu items display horizontally and their font size, as well as the logo size, increase at various intervals, through the use of media queries.
     - A horizontal line displays underneath the active page that the user is on so that they can clearly see which page they are currently on. The horizontal line will also display underneath each menu item when the user hovers over it.
 
 ![Nav bar](docs/features/nav-bar.png)
 
 - Footer
-    - The footer appears at the bottom of each of the four main pages and contains icons as links to social media websites that will open in a new tab. Aria labels have been used on the social media icons to ensure the footer is accessible to the visually impaired.
+    - The footer appears at the bottom of each of the four main pages and 'Thank you' page, and contains icons as links to social media websites that will open in a new tab. Aria labels have been used on the social media icons to ensure the footer is accessible to the visually impaired.
 
 ![Footer](docs/features/footer.png)
 
@@ -78,7 +78,7 @@ The website is made up of six pages, four of which are accessible from the navig
 
 ### Home page features
 - Hero image
-    - This is a picture of one of Seville's main attractions (the Plaza de España) with cover text statement to entice users to explore the site further.
+    - This is a picture of one of Seville's main attractions (the Plaza de España) with a cover text statement to entice users to explore the site further.
     - The image zooms in when the user clicks on the logo/Home link on the nav bar, and it was chosen to be the hero image because it is one of the most popular landmarks in Seville, so is instantly recognisable for those who may know a little about the city, and for those who know nothing about the city, it is an eye catching structure that is made more appealing through the zoom feature. Moreover, it stretches nicely across the screen on large screen sizes, while also resizing on smaller devices to ensure that it always grabs the attention of the user.
     - The cover text also increases as the screen size increases so that it is proportioned well against the image.
 
@@ -91,7 +91,7 @@ The website is made up of six pages, four of which are accessible from the navig
 ![About Seville](docs/features/about-seville.png)
 
 - When to visit section
-    - This section features underneath the About Seville section and is separated from that section with an image of a typical Sevillian street that is in keeping with the colour scheme.
+    - This section features underneath the About Seville section and is separated from that section with an image of a typical Sevillian street that is in keeping with the website's colour scheme.
     - This section provides clear information to the user about the best time of year to visit the city, and it is divided into smaller sections to make it easier for users to identify the best time to visit based on their needs.
     - Below this, there is a link directly to the Contact us form to make it easier for users to enquire further about when to visit.
 
@@ -201,17 +201,18 @@ Lighthouse testing was carried out to test the performance, accessibility, best 
 ### Manual testing
 Thorough testing of the site has been undertaken to ensure that it runs as expected and that all links and features are working exactly as they should be.
 - Navigation and footer links
-    - These links were tested on each of the four main pages of the website and the results can be seen below:
+    - These links were tested on each of the main pages of the website and the results can be seen below:
 
 | Feature | Expect | Action | Result |
 | ---| ---| ---| ---|
-| Logo| When clicked, the user is taken to the 'Home' page| Clicked the logo| Taken to the 'Home' page|
+| Logo| When clicked, the user is taken to the 'Home' page.| Clicked the logo.| Taken to the 'Home' page.|
 |Home link|The text underlines when hovering over it. When clicked, the user is taken to the 'Home' page. The text remains underlined when on the 'Home' page.|Hovered over the text. Clicked the 'Home' link.|The text underlines when hovered over. Taken to the 'Home' page when clicked. Text remains underlined when on the 'Home' page.|
-|Things to do link|The text underlines when hovering over it. When clicked, the user is taken to the 'Things to do' page. The text remains underlined when on the 'Things to do' page.|Hovered over the text. Clicked the 'Things to do' link|The text underlines when hovered over. Taken to the 'Things to do' page when clicked. Text remains underlined when on the 'Things to do' page.|
-|Gallery link|The text underlines when hovering over it. When clicked, the user is taken to the 'Gallery' page. The text remains underlined when on the 'Gallery' page.|Hovered over the text. Clicked the 'Gallery' link|The text underlines when hovered over. Taken to the 'Gallery' page when clicked. Text remains underlined when on the 'Gallery' page.|
-| Facebook icon| When clicked, the user is taken to Facebook website in a new tab| Clicked the icon| Taken to the Facebook website in a new tab.|
-| Instagram icon| When clicked, the user is taken to Instagram website in a new tab| Clicked the icon| Taken to the Instagram website in a new tab.|
-| Twitter icon| When clicked, the user is taken to Twitter website in a new tab| Clicked the icon.| Taken to the Twitter website in a new tab.|
+|Things to do link|The text underlines when hovering over it. When clicked, the user is taken to the 'Things to do' page. The text remains underlined when on the 'Things to do' page.|Hovered over the text. Clicked the 'Things to do' link.|The text underlines when hovered over. Taken to the 'Things to do' page when clicked. Text remains underlined when on the 'Things to do' page.|
+|Gallery link|The text underlines when hovering over it. When clicked, the user is taken to the 'Gallery' page. The text remains underlined when on the 'Gallery' page.|Hovered over the text. Clicked the 'Gallery' link.|The text underlines when hovered over. Taken to the 'Gallery' page when clicked. Text remains underlined when on the 'Gallery' page.|
+|Contact us link|The text underlines when hovering over it. When clicked, the user is taken to the 'Contact us' page. The text remains underlined when on the 'Contact us' page.|Hovered over the text. Clicked the 'Contact us' link.|The text underlines when hovered over. Taken to the 'Contact us' page when clicked. Text remains underlined when on the 'Contact us' page.|
+| Facebook icon| When clicked, the user is taken to the Facebook website in a new tab.| Clicked the icon.| Taken to the Facebook website in a new tab.|
+| Instagram icon| When clicked, the user is taken to the Instagram website in a new tab.| Clicked the icon.| Taken to the Instagram website in a new tab.|
+| Twitter icon| When clicked, the user is taken to the Twitter website in a new tab.| Clicked the icon.| Taken to the Twitter website in a new tab.|
 
 - 'Home' page
 
@@ -247,7 +248,7 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
 
 | Feature | Expect | Action | Result |
 | ---| ---| ---| ---|
-| 404 page| When navigated to a broken link, the user is taken to the 404 page| Inputted a broken link| Taken to the '404' page.|
+| 404 page| When navigated to a broken link, the user is taken to the 404 page.| Inputted a broken link.| Taken to the '404' page.|
 | Logo| When clicked, the user is taken to the 'Home' page.| Clicked the logo.| Taken to the 'Home' page.|
 | 'Return to home page' link| The button and text colours change when hovering over it. When clicked, the user is taken to the 'Home' page.| Clicked the link.| The button and text colours changed when hovering over it. Taken to the 'Home' page when clicked.|
 
@@ -256,16 +257,16 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
     - Result: The site is easy to navigate, thanks to the navigation menu at the top of every page, so it is easy to find a list of things to do, and there is detailed information on the home page explaining when the best time to visit is, which is divided into sections to make it clear when it will be cheaper or better weather.
 - Expectation: I want to see what the main features of the city look like.
     - Result: The gallery page has a range of photos of the city so it is easy to get a detailed overview of what the key features of the city look like. Also, the 'Things to do' page provides an image of the main attractions accompanied by a description of what they are.
-- Expectation: I want to easily contact someone to ask further questions and to be regularly updated about events in the city
-    - Result: The 'Contact us' page is easy to find, thanks to a link to this page being displayed in the navigation menu on each page. The form is easy to fill out depending on whether you want to sign up to a newsletter about the city, or ask specific questions, or both. The placeholder text on the form makes it even easier to know what to fill out in each of the text boxes. Also, there are links directly to this page at the bottom of the 'Home' and 'Things to do' pages, which again makes it very easy to get in contact with someone.
+- Expectation: I want to easily contact someone to ask further questions and to be regularly updated about events in the city.
+    - Result: The 'Contact us' page is easy to find, thanks to a link to this page being displayed in the navigation menu on each page. The form is easy to fill out depending on whether you want to sign up to a newsletter about the city, or ask specific questions, or both. The placeholder text on the form makes it even easier to know what to fill out in each of the text boxes. Also, there are links directly to this page at the bottom of the 'Home' and 'Things to do' pages, which, again, make it very easy to get in contact with someone.
 
 ### Solved bugs
-- Problem: Photos were not displaying on 'Things to do' page when site was first deployed
-    - Solution: Changed file paths from absolute to relative to make them display properly
-- Problem: Form was not displaying properly on phone (the bottom of the form was expanding underneath the footer and the background image was not long enough)
-    - Solution: Increased the background image height to make it larger than the form content so that there would be no overlaps
-- Problem: Form background image was not long enough for extra extra large screens (eg 4k screens). This was discovered when inspecting the site on dev tools at a zoom of 50%.
-    - Solution: Set a min-height media query to fix this
+- Problem: Photos were not displaying on 'Things to do' page when site was first deployed.
+    - Solution: Changed file paths from absolute to relative to make them display properly.
+- Problem: Form was not displaying properly on phone (the bottom of the form was expanding underneath the footer and the background image was not long enough).
+    - Solution: Increased the background image height to make it larger than the form content so that there would be no overlaps.
+- Problem: Form background image was not long enough for extra extra large screens (eg 4K screens). This was discovered when inspecting the site on dev tools at a zoom of 50%.
+    - Solution: Set a min-height media query to fix this.
 
 
 ## Deployment

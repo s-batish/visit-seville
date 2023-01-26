@@ -610,8 +610,8 @@ footer {
 }
 
 /* media query for contact, thank you and error backgrounds for 4k screen sizes  */
-@media screen and (min-height: 1200px) {
+@media screen and (min-height: 1100px) {
     #contact-background, #thank-you-background, #error-background {
-        height: 1650px;
+        height: 1850px;
     }
 }
