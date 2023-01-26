@@ -124,6 +124,7 @@ Below all of the recommendations, there is a link directly to the Contact us for
         - Email (required, type=email)
         - Would you like to sign up to our monthly newsletter? Yes/No (required, type=radio)
         - Let us know if you have any specific questions below. We're always happy to help! (type=textarea)
+            - This textarea element does not have a required attribute because it is designed to be optional whether users have any questions or not. Therefore, it is not a requirement to fill it out.
 
 ![Contact Us form](docs/features/contact-form.png)
 
@@ -246,6 +247,7 @@ Thorough testing of the site has been undertaken to ensure that it runs as expec
 
 | Feature | Expect | Action | Result |
 | ---| ---| ---| ---|
+| 404 page| When navigated to a broken link, the user is taken to the 404 page| Inputted a broken link| Taken to the '404' page.|
 | Logo| When clicked, the user is taken to the 'Home' page.| Clicked the logo.| Taken to the 'Home' page.|
 | 'Return to home page' link| The button and text colours change when hovering over it. When clicked, the user is taken to the 'Home' page.| Clicked the link.| The button and text colours changed when hovering over it. Taken to the 'Home' page when clicked.|
 
